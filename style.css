@@ -1,0 +1,27 @@
+
+
+.cards-container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    display: grid;
+    grid-auto-flow: row;
+
+    width: 400px;
+
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.card .background-image {
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+.card .floating-logo {
+    width: 70px;
+    border-radius: 100%;
+
+    position: absolute;
+    left: 330px; /* 400 - 70*/
+}
